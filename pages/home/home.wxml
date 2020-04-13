@@ -1,0 +1,4 @@
+<!--pages/home/home.wxml-->
+首页标题
+<swiper><swiper-item wx:for="{{list.length}}"><image class="swiperImg" src="{{list[index].imgSrc}}"></image></swiper-item></swiper>
+

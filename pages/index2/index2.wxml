@@ -1,2 +1,3 @@
 <!--pages/index2/index2.wxml-->
-<text>这是index2</text>
+<text>{{text}}</text>
+<button bindtap="btnClick">按钮</button>

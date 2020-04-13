@@ -1,8 +1,9 @@
 {
   "pages": [
+    "pages/home/home",
     "pages/index2/index2",
-    "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/profile/profile"
     
   ],
   "window": {
@@ -12,5 +13,26 @@
     "navigationBarTextStyle": "black"
   },
   "style": "v2",
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/home/home",
+      "text": "首页",
+      "iconPath": "assets/icon/home.png",
+      "selectedIconPath": "assets/icon/home-select.png"
+    },
+    {
+      "pagePath": "pages/index2/index2",
+      "text": "index2",
+      "iconPath": "assets/icon/search.png",
+      "selectedIconPath": "assets/icon/search-select.png"
+    },
+    {
+      "pagePath": "pages/profile/profile",
+      "text": "个人",
+      "iconPath": "assets/icon/account.png",
+      "selectedIconPath": "assets/icon/account-select.png"
+    }],
+    "selectedColor": "#1296db"
+  }
 }
